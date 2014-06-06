@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WENCEY_WANG-PC</Machine>
+    <WindowsUser>Class 4</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>800771b2-5941-4d41-8705-b63b837e76c3</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\OrangeNoEnd.Windows.exe">
+      <PackagePath>OrangeNoEnd.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\OrangeNoEnd.Windows.xr.xml">
+      <PackagePath>OrangeNoEnd.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

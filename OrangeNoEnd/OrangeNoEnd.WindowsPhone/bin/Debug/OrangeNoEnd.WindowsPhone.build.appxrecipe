@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WENCEY_WANG-PC</Machine>
+    <WindowsUser>Class 4</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>c515deb8-dd3b-44b7-9ff1-046a99ea75ad</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\OrangeNoEnd.WindowsPhone.exe">
+      <PackagePath>OrangeNoEnd.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\OrangeNoEnd.WindowsPhone.xr.xml">
+      <PackagePath>OrangeNoEnd.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,64 @@
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\App.xbf
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\MainPage.xbf
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\OrangeNoEnd.WindowsPhone.xr.xml
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\OrangeNoEnd.WindowsPhone.exe
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\OrangeNoEnd.WindowsPhone.pdb
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\resources.pri
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\AppxManifest.xml
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\OrangeNoEnd.WindowsPhone.build.appxrecipe
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\App.g.i.cs
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\App.g.cs
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\MainPage.g.cs
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\App.xaml
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\MainPage.xaml
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\App.xbf
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\MainPage.xbf
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\OrangeNoEnd.WindowsPhone.exe
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\OrangeNoEnd.WindowsPhone.pdb
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\priconfig.xml
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\layout.resfiles
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\resources.resfiles
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\pri.resfiles
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\qualifiers.txt
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Wang\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\App.xbf
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\MainPage.xbf
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\OrangeNoEnd.WindowsPhone.xr.xml
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\OrangeNoEnd.WindowsPhone.exe
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\OrangeNoEnd.WindowsPhone.pdb
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\resources.pri
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\AppxManifest.xml
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\bin\Debug\OrangeNoEnd.WindowsPhone.build.appxrecipe
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\App.g.i.cs
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\App.g.cs
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\MainPage.g.cs
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\App.xaml
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\MainPage.xaml
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\App.xbf
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\MainPage.xbf
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\OrangeNoEnd.WindowsPhone.exe
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\OrangeNoEnd.WindowsPhone.pdb
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\priconfig.xml
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\layout.resfiles
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\resources.resfiles
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\pri.resfiles
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\qualifiers.txt
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Class 4\Documents\Visual Studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.WindowsPhone\obj\Debug\ProjectArchitectures.txt
