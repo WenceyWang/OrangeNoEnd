@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-07T04:18:00.970</Modified>
+      <Modified>2014-06-07T08:57:08.633</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\OrangeNoEnd.Windows.exe">
       <PackagePath>OrangeNoEnd.Windows.exe</PackagePath>
-      <Modified>2014-06-07T04:17:58.965</Modified>
+      <Modified>2014-06-07T09:50:37.796</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -54,15 +54,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-06-07T04:17:58.554</Modified>
+      <Modified>2014-06-07T09:50:37.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\OrangeNoEnd.Windows.xr.xml">
       <PackagePath>OrangeNoEnd.Windows.xr.xml</PackagePath>
-      <Modified>2014-06-07T04:17:58.534</Modified>
+      <Modified>2014-06-07T08:57:44.912</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-06-07T04:17:59.620</Modified>
+      <Modified>2014-06-07T08:57:07.240</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

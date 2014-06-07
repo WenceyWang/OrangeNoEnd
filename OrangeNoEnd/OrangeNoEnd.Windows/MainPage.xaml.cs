@@ -189,21 +189,21 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				//NumberOfSpaceCraftOut.Text = value.ToString();
+				NumberOfSpaceCraftOut.Text = value.ToString();
 				localSettings.Values["NumberOfSpaceCraft"] = value;
 			}
 		}
 
-		int NumberOfRactor
+		int NumberOfReactor
 		{
 			get
 			{
-				return Convert.ToInt32(localSettings.Values["NumberOfRactor"]);
+				return Convert.ToInt32(localSettings.Values["NumberOfReactor"]);
 			}
 			set
 			{
-				//NumberOfRactorOut.Text = value.ToString();
-				localSettings.Values["NumberOfRactor"] = value;
+				NumberOfReactorOut.Text = value.ToString();
+				localSettings.Values["NumberOfReactor"] = value;
 			}
 		}
 
@@ -215,7 +215,7 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				//NumberOfMLOut.Text = value.ToString();
+				NumberOfMLOut.Text = value.ToString();
 				localSettings.Values["NumberOfML"] = value;
 			}
 		}
@@ -228,7 +228,7 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				//LevelOfCursorOut.Text = value.ToString();
+				LevelOfCursorOut.Text = value.ToString();
 				localSettings.Values["LevelOfCursor"] = value;
 			}
 		}
@@ -241,7 +241,7 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				//LevelOfPrimaryOut.Text = value.ToString();
+				LevelOfPrimaryOut.Text = value.ToString();
 				localSettings.Values["LevelOfPrimary"] = value;
 			}
 		}
@@ -254,7 +254,7 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				//LevelOfFarmOut.Text = value.ToString();
+				LevelOfFarmOut.Text = value.ToString();
 				localSettings.Values["LevelOfFarm"] = value;
 			}
 		}
@@ -267,7 +267,7 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				//LevelOfMineOut.Text = value.ToString();
+				LevelOfMineOut.Text = value.ToString();
 				localSettings.Values["LevelOfMine"] = value;
 			}
 		}
@@ -280,7 +280,7 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				//LevelOfLaboratoryOut.Text = value.ToString();
+				LevelOfLaboratoryOut.Text = value.ToString();
 				localSettings.Values["LevelOfLaboratory"] = value;
 			}
 		}
@@ -293,21 +293,21 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				//LevelOfSpaceCraftOut.Text = value.ToString();
+				LevelOfSpaceCraftOut.Text = value.ToString();
 				localSettings.Values["LevelOfSpaceCraft"] = value;
 			}
 		}
 
-		int LevelOfRactor
+		int LevelOfReactor
 		{
 			get
 			{
-				return Convert.ToInt32(localSettings.Values["LevelOfRactor"]);
+				return Convert.ToInt32(localSettings.Values["LevelOfReactor"]);
 			}
 			set
 			{
-				//LevelOfRactorOut.Text = value.ToString();
-				localSettings.Values["LevelOfRactor"] = value;
+				LevelOfReactorOut.Text = value.ToString();
+				localSettings.Values["LevelOfReactor"] = value;
 			}
 		}
 
@@ -319,7 +319,7 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				//LevelOfMLOut.Text = value.ToString();
+				LevelOfMLOut.Text = value.ToString();
 				localSettings.Values["LevelOfML"] = value;
 			}
 		}
