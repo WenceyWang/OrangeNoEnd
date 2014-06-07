@@ -7,7 +7,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>800771b2-5941-4d41-8705-b63b837e76c3</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>AD3C45A2C27B94A98E4FB002AC76FA261788D034A38BB05C2E8CF2CCA4362B1C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>800771b2-5941-4d41-8705-b63b837e76c3_1.0.0.0_neutral__x6qp3c60nq8d4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>800771b2-5941-4d41-8705-b63b837e76c3_x6qp3c60nq8d4!App</RegisteredUserModeAppID>
@@ -17,52 +17,52 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-03T09:50:46.523</Modified>
+      <Modified>2014-06-07T04:18:00.970</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\OrangeNoEnd.Windows.exe">
+    <AppxPackagedFile Include="C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\OrangeNoEnd.Windows.exe">
       <PackagePath>OrangeNoEnd.Windows.exe</PackagePath>
-      <Modified>2014-06-03T10:13:56.308</Modified>
+      <Modified>2014-06-07T04:17:58.965</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-13T20:23:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-13T20:23:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-13T20:23:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-13T20:23:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-05-30T10:19:51.307</Modified>
+      <Modified>2014-06-07T04:17:32.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-06-03T09:50:44.825</Modified>
+      <Modified>2014-06-07T04:17:58.554</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\OrangeNoEnd.Windows.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\OrangeNoEnd.Windows.xr.xml">
       <PackagePath>OrangeNoEnd.Windows.xr.xml</PackagePath>
-      <Modified>2014-05-30T04:10:58.376</Modified>
+      <Modified>2014-06-07T04:17:58.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-06-03T09:50:45.640</Modified>
+      <Modified>2014-06-07T04:17:59.620</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

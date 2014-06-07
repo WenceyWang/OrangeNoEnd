@@ -1,1 +1,1 @@
-C:\Users\Class 4\documents\visual studio 2013\Projects\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\OrangeNoEnd.Windows.csproj;neutral
+C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\OrangeNoEnd.Windows.csproj;neutral

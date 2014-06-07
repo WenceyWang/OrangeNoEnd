@@ -51,8 +51,7 @@ namespace OrangeNoEnd
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 this.DebugSettings.EnableFrameRateCounter = true;
-				this.DebugSettings.EnableRedrawRegions = !true;
-				this.DebugSettings.IsOverdrawHeatMapEnabled = !true;
+				this.DebugSettings.EnableRedrawRegions = true;
             }
 #endif
 
