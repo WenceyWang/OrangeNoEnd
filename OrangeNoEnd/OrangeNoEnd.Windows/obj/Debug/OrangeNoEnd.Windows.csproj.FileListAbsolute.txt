@@ -94,3 +94,35 @@ C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Win
 C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Class 4\Desktop\新建文件夹\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\App.xbf
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\MainPage.xbf
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\OrangeNoEnd.Windows.xr.xml
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\OrangeNoEnd.Windows.exe
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\OrangeNoEnd.Windows.pdb
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\resources.pri
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\AppxManifest.xml
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\OrangeNoEnd.Windows.build.appxrecipe
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\App.g.i.cs
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\App.g.cs
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\MainPage.g.i.cs
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\MainPage.g.cs
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\App.xaml
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\App.xbf
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\MainPage.xaml
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\MainPage.xbf
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\OrangeNoEnd.Windows.exe
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\OrangeNoEnd.Windows.pdb
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\priconfig.xml
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\priconfig.xml.intermediate
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\layout.resfiles
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\layout.resfiles.intermediate
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\resources.resfiles
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\resources.resfiles.intermediate
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\pri.resfiles
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\pri.resfiles.intermediate
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\qualifiers.txt
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Wang\Documents\GitHub\OrangeNoEnd\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\ProjectArchitectures.txt

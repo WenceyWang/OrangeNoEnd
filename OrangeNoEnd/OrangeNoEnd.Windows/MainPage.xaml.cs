@@ -90,17 +90,17 @@ namespace OrangeNoEnd
 			localSettings.Values["NumberOfLaboratory"] = 0;
 			localSettings.Values["NumberOfSpaceCraft"] = 0;
 			localSettings.Values["NumberOfReactor"] = 0;
-			localSettings.Values["NumberOfML"] = 0;
-			localSettings.Values["LevelOfRush"] = 1;
-			localSettings.Values["LevelOfCursor"] = 1;
-			localSettings.Values["LevelOfPrimary"] = 1;
-			localSettings.Values["LevelOfFarm"] = 1;
-			localSettings.Values["LevelOfMine"] = 1;
-			localSettings.Values["LevelOfLaboratory"] = 1;
-			localSettings.Values["LevelOfSpaceCraft"] = 1;
-			localSettings.Values["LevelOfReactor"] = 1;
-			localSettings.Values["LevelOfML"] = 1;
-			localSettings.Values["TimeOfSetNumberOfOrange"] = 500;
+			NumberOfML = 0;
+			LevelOfRush= 
+			LevelOfCursor= 
+			LevelOfPrimary= 
+			LevelOfFarm = 
+			LevelOfMine= 
+			LevelOfLaboratory = 
+			LevelOfSpaceCraft= 
+			LevelOfReactor = 
+			LevelOfML = 1;
+			TimeOfSetNumberOfOrange= 500;
 		}
 
 		decimal NumberOfOrange
@@ -219,6 +219,18 @@ namespace OrangeNoEnd
 				localSettings.Values["NumberOfML"] = value;
 			}
 		}
+        int LevelOfRush 
+        {
+            get
+            {
+                return Convert.ToInt32(localSettings.Values["LevelOfRush"]);
+            }
+            set
+            {
+                LevelOfCursorOut.Text = value.ToString();
+                localSettings.Values["LevelOfRush"] = value;
+            }
+        }
 
 		int LevelOfCursor
 		{
@@ -376,5 +388,6 @@ namespace OrangeNoEnd
 			ShowEvent(localSettings.Values["LevelOfRush"].ToString() + "个橘子从树上掉了下来~~~");
 		}
 
-	}
+
+    }
 }
