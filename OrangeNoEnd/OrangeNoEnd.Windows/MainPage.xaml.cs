@@ -41,14 +41,7 @@ namespace OrangeNoEnd
 		#endregion
 
 		#region Timers
-		DispatcherTimer TimerForCursor = new DispatcherTimer();
-		DispatcherTimer TimerForPrimary = new DispatcherTimer();
-		DispatcherTimer TimerForFarm = new DispatcherTimer();
-		DispatcherTimer TimerForMine = new DispatcherTimer();
-		DispatcherTimer TimerForLaboratory = new DispatcherTimer();
-		DispatcherTimer TimerForSpaceCraft = new DispatcherTimer();
-		DispatcherTimer TimerForReactor = new DispatcherTimer();
-		DispatcherTimer TimerForML = new DispatcherTimer();
+		DispatcherTimer Timers = new DispatcherTimer();
 
 		DispatcherTimer TimerForCleanEvent = new DispatcherTimer();
 		#endregion
@@ -59,8 +52,15 @@ namespace OrangeNoEnd
 
 			#region SetStartValue
 			SettingOfRush.Add(1);
+			SettingOfCursor.Add(1);
 			SettingOfPrimary.Add(1);
 			SettingOfFarm.Add(1);
+			SettingOfMine.Add(1);
+			SettingOfLaboratory.Add(1);
+			SettingOfSpaceCraft.Add(1);
+			SettingOfReactor.Add(1);
+			SettingOfML.Add(1);
+
 			//if (localSettings.Values["GameIsStart"]==null)
 			{
 				SetStartValue();
@@ -71,24 +71,23 @@ namespace OrangeNoEnd
 			#region SetTimer
 			TimerForCleanEvent.Interval = new TimeSpan(0, 0, 1);
 			TimerForCleanEvent.Tick += TimerForCleanEvent_Tick;
-			TimerForCursor.Interval = new TimeSpan(0, 0, 1);
-			TimerForCursor.Tick += TimerForCursor_Tick;
-			TimerForPrimary.Interval = new TimeSpan(0, 0, 1);
-			TimerForPrimary.Tick += TimerForPrimy_Tick;
-
+			Timers.Interval = new TimeSpan(0, 0, 0,0,100);
+			Timers.Tick += Timers_Tick;
 			#endregion
 
 			#region StartTimer
-			TimerForPrimary.Start();
-			TimerForCursor.Start();
+			Timers.Start();
 			#endregion
 
 		}
+
+
+
 		void SetStartValue()
 		{
-			NumberOfOrange =100000000000000000m;//= 
+			NumberOfOrange = 100000m;//= 
 			NumberOfCursor = NumberOfPrimary = NumberOfFarm = NumberOfMine = NumberOfLaboratory = NumberOfSpaceCraft = NumberOfReactor = NumberOfML = 100;
-			LevelOfRush = LevelOfCursor = LevelOfPrimary = LevelOfFarm = LevelOfMine = LevelOfLaboratory = LevelOfSpaceCraft = LevelOfReactor = LevelOfML =0;
+			LevelOfRush = LevelOfCursor = LevelOfPrimary = LevelOfFarm = LevelOfMine = LevelOfLaboratory = LevelOfSpaceCraft = LevelOfReactor = LevelOfML = 0;
 		}
 
 		#region Of
@@ -104,6 +103,7 @@ namespace OrangeNoEnd
 			{
 				NumberOfOrangeOut.Text = value.ToString();
 				localSettings.Values["NumberOfOrange"] = value.ToString();
+				SpeedOfOrangeRiseOut.Text = SpeedOfOrangeRise.ToString();
 			}
 		}
 		int NumberOfCursor
@@ -380,29 +380,30 @@ namespace OrangeNoEnd
 		}
 		#endregion
 
+		int SpeedOfOrangeRise
+		{
+			get
+			{
+				return RiseOfCursor * NumberOfCursor + RiseOfPrimary * NumberOfPrimary + RiseOfFarm * NumberOfFarm + RiseOfMine * NumberOfMine + RiseOfLaboratory * NumberOfLaboratory + RiseOfSpaceCraft * NumberOfSpaceCraft + RiseOfReactor * NumberOfReactor + RiseOfML * NumberOfML;
+			}
+		}
+
 		#endregion
 
+		void Timers_Tick(object sender, object e)
+		{
+			NumberOfOrange += (decimal)(SpeedOfOrangeRise*(Timers.Interval.TotalMilliseconds/1000));
+		}
 		public void ShowEvent(string text)
 		{
 			TBEvent.Text = text;
 			TimerForCleanEvent.Start();
 		}
 
-		void TimerForCursor_Tick(object sender, object e)
-		{
-			NumberOfOrange += LevelOfCursor;
-			ShowEvent(localSettings.Values["LevelOfCursor"].ToString() + "个橘子从树上掉了下来~~~");
-		}
-
 		void TimerForCleanEvent_Tick(object sender, object e)
 		{
 			TBEvent.Text = "";
 			TimerForCleanEvent.Stop();
-		}
-
-		void TimerForPrimy_Tick(object sender, object e)
-		{
-			NumberOfOrange +=RiseOfPrimary*NumberOfPrimary;
 		}
 
 		private void NumberOfOrangeOut_Loaded(object sender, RoutedEventArgs e)
@@ -422,7 +423,7 @@ namespace OrangeNoEnd
 
 		private void BRush_Click(object sender, RoutedEventArgs e)
 		{
-			NumberOfOrange+=RiseOfRush;
+			NumberOfOrange += RiseOfRush;
 			ShowEvent(RiseOfRush.ToString() + "个橘子从树上掉了下来~~~");
 		}
 	}
