@@ -29,15 +29,15 @@ namespace OrangeNoEnd
 		ApplicationDataContainer localSettings = ApplicationData.Current.LocalSettings;
 
 		#region Settings
-		List<int> SettingOfRush = new List<int>();
-		List<int> SettingOfCursor = new List<int>();
-		List<int> SettingOfPrimary = new List<int>();
-		List<int> SettingOfFarm = new List<int>();
-		List<int> SettingOfMine = new List<int>();
-		List<int> SettingOfLaboratory = new List<int>();
-		List<int> SettingOfSpaceCraft = new List<int>();
-		List<int> SettingOfReactor = new List<int>();
-		List<int> SettingOfML = new List<int>();
+		List<long> SettingOfRush = new List<long>();
+		List<double> SettingOfCursor = new List<double>();
+		List<long> SettingOfPrimary = new List<long>();
+		List<long> SettingOfFarm = new List<long>();
+		List<long> SettingOfMine = new List<long>();
+		List<long> SettingOfLaboratory = new List<long>();
+		List<long> SettingOfSpaceCraft = new List<long>();
+		List<long> SettingOfReactor = new List<long>();
+		List<long> SettingOfML = new List<long>();
 		#endregion
 
 		#region Timers
@@ -52,14 +52,14 @@ namespace OrangeNoEnd
 
 			#region SetStartValue
 			SettingOfRush.Add(1);
-			SettingOfCursor.Add(1);
-			SettingOfPrimary.Add(1);
-			SettingOfFarm.Add(1);
-			SettingOfMine.Add(1);
-			SettingOfLaboratory.Add(1);
-			SettingOfSpaceCraft.Add(1);
-			SettingOfReactor.Add(1);
-			SettingOfML.Add(1);
+			SettingOfCursor.Add(0.1);
+			SettingOfPrimary.Add(2);
+			SettingOfFarm.Add(50);
+			SettingOfMine.Add(2000);
+			SettingOfLaboratory.Add(100000);
+			SettingOfSpaceCraft.Add(30000000);
+			SettingOfReactor.Add(1000000000);
+			SettingOfML.Add(10101010);
 
 			//if (localSettings.Values["GameIsStart"]==null)
 			{
@@ -71,7 +71,7 @@ namespace OrangeNoEnd
 			#region SetTimer
 			TimerForCleanEvent.Interval = new TimeSpan(0, 0, 1);
 			TimerForCleanEvent.Tick += TimerForCleanEvent_Tick;
-			Timers.Interval = new TimeSpan(0, 0, 0,0,100);
+			Timers.Interval = new TimeSpan(0, 0, 0,0,50);
 			Timers.Tick += Timers_Tick;
 			#endregion
 
@@ -86,7 +86,7 @@ namespace OrangeNoEnd
 		void SetStartValue()
 		{
 			NumberOfOrange = 100000m;//= 
-			NumberOfCursor = NumberOfPrimary = NumberOfFarm = NumberOfMine = NumberOfLaboratory = NumberOfSpaceCraft = NumberOfReactor = NumberOfML = 100;
+			NumberOfCursor = NumberOfPrimary = NumberOfFarm = NumberOfMine = NumberOfLaboratory = NumberOfSpaceCraft = NumberOfReactor = NumberOfML = 1;
 			LevelOfRush = LevelOfCursor = LevelOfPrimary = LevelOfFarm = LevelOfMine = LevelOfLaboratory = LevelOfSpaceCraft = LevelOfReactor = LevelOfML = 0;
 		}
 
@@ -101,7 +101,7 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				NumberOfOrangeOut.Text = value.ToString();
+				NumberOfOrangeOut.Text = decimal.Floor(value).ToString();
 				localSettings.Values["NumberOfOrange"] = value.ToString();
 				SpeedOfOrangeRiseOut.Text = SpeedOfOrangeRise.ToString();
 			}
@@ -315,63 +315,63 @@ namespace OrangeNoEnd
 		#endregion
 
 		#region RiseOf
-		int RiseOfRush
+		long RiseOfRush
 		{
 			get
 			{
 				return SettingOfRush[LevelOfRush];
 			}
 		}
-		int RiseOfCursor
+		double RiseOfCursor
 		{
 			get
 			{
 				return SettingOfCursor[LevelOfCursor];
 			}
 		}
-		int RiseOfPrimary
+		long RiseOfPrimary
 		{
 			get
 			{
 				return SettingOfPrimary[LevelOfPrimary];
 			}
 		}
-		int RiseOfFarm
+		long RiseOfFarm
 		{
 			get
 			{
 				return SettingOfFarm[LevelOfFarm];
 			}
 		}
-		int RiseOfMine
+		long RiseOfMine
 		{
 			get
 			{
 				return SettingOfMine[LevelOfMine];
 			}
 		}
-		int RiseOfLaboratory
+		long RiseOfLaboratory
 		{
 			get
 			{
 				return SettingOfLaboratory[LevelOfLaboratory];
 			}
 		}
-		int RiseOfSpaceCraft
+		long RiseOfSpaceCraft
 		{
 			get
 			{
 				return SettingOfSpaceCraft[LevelOfSpaceCraft];
 			}
 		}
-		int RiseOfReactor
+		long RiseOfReactor
 		{
 			get
 			{
 				return SettingOfReactor[LevelOfReactor];
 			}
 		}
-		int RiseOfML
+		long RiseOfML
 		{
 			get
 			{
@@ -380,7 +380,7 @@ namespace OrangeNoEnd
 		}
 		#endregion
 
-		int SpeedOfOrangeRise
+		double SpeedOfOrangeRise
 		{
 			get
 			{

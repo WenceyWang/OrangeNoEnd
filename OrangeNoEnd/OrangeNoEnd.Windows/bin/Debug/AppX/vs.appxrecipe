@@ -8,7 +8,7 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>800771b2-5941-4d41-8705-b63b837e76c3</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Class 4\Desktop\OrangeNoEnd-master\OrangeNoEnd-master\OrangeNoEnd\OrangeNoEnd.Windows\obj\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>EC280639CFC1B386C2AFBBC1BD754605F3817BE1024598B536787A9CC2AD35D1</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>AD3C45A2C27B94A98E4FB002AC76FA261788D034A38BB05C2E8CF2CCA4362B1C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>800771b2-5941-4d41-8705-b63b837e76c3_1.0.0.0_neutral__x6qp3c60nq8d4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>800771b2-5941-4d41-8705-b63b837e76c3_x6qp3c60nq8d4!App</RegisteredUserModeAppID>
     <RegisteredPackageID>800771b2-5941-4d41-8705-b63b837e76c3</RegisteredPackageID>
@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Class 4\Desktop\OrangeNoEnd-master\OrangeNoEnd-master\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-07T19:08:06.000</Modified>
+      <Modified>2014-06-10T10:10:30.072</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Class 4\Desktop\OrangeNoEnd-master\OrangeNoEnd-master\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\OrangeNoEnd.Windows.exe">
       <PackagePath>OrangeNoEnd.Windows.exe</PackagePath>
-      <Modified>2014-06-10T04:20:58.544</Modified>
+      <Modified>2014-06-10T10:27:57.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Class 4\Desktop\OrangeNoEnd-master\OrangeNoEnd-master\OrangeNoEnd\OrangeNoEnd.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -54,15 +54,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Class 4\Desktop\OrangeNoEnd-master\OrangeNoEnd-master\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-06-10T04:16:06.811</Modified>
+      <Modified>2014-06-10T10:27:57.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Class 4\Desktop\OrangeNoEnd-master\OrangeNoEnd-master\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\OrangeNoEnd.Windows.xr.xml">
       <PackagePath>OrangeNoEnd.Windows.xr.xml</PackagePath>
-      <Modified>2014-06-09T10:05:11.622</Modified>
+      <Modified>2014-06-10T10:10:24.829</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Class 4\Desktop\OrangeNoEnd-master\OrangeNoEnd-master\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-06-07T19:08:06.000</Modified>
+      <Modified>2014-06-10T10:10:27.462</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
