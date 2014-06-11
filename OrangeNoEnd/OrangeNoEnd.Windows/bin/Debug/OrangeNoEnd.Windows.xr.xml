@@ -65,10 +65,12 @@
       <RootProperty Name="ZoomMode" />
       <RootProperty Name="HorizontalScrollMode" />
       <RootProperty Name="IsVerticalRailEnabled" />
+      <RootProperty Name="BorderThickness" />
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="Children" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">

@@ -28,16 +28,18 @@ namespace OrangeNoEnd
 	{
 		ApplicationDataContainer localSettings = ApplicationData.Current.LocalSettings;
 
-		#region Settings
-		List<long> SettingOfRush = new List<long>();
-		List<double> SettingOfCursor = new List<double>();
-		List<long> SettingOfPrimary = new List<long>();
-		List<long> SettingOfFarm = new List<long>();
-		List<long> SettingOfMine = new List<long>();
-		List<long> SettingOfLaboratory = new List<long>();
-		List<long> SettingOfSpaceCraft = new List<long>();
-		List<long> SettingOfReactor = new List<long>();
-		List<long> SettingOfML = new List<long>();
+		#region Datas
+		List<long> RiseOfRushData = new List<long>();
+		List<double> RiseOfCursorData = new List<double>();
+		List<long> RiseOfPrimaryData = new List<long>();
+		List<long> RiseOfFarmData = new List<long>();
+		List<long> RiseOfMineData = new List<long>();
+		List<long> RiseOfLaboratoryData = new List<long>();
+		List<long> RiseOfSpaceCraftData = new List<long>();
+		List<long> RiseOfReactorData = new List<long>();
+		List<long> RiseOfMLData = new List<long>();
+
+
 		#endregion
 
 		#region Timers
@@ -50,15 +52,15 @@ namespace OrangeNoEnd
 		{
 			this.InitializeComponent();
 			#region SetStartValue
-			SettingOfRush.Add(1);
-			SettingOfCursor.Add(0.1);
-			SettingOfPrimary.Add(2);
-			SettingOfFarm.Add(50);
-			SettingOfMine.Add(2000);
-			SettingOfLaboratory.Add(100000);
-			SettingOfSpaceCraft.Add(30000000);
-			SettingOfReactor.Add(1000000000);
-			SettingOfML.Add(10101010);
+			RiseOfRushData.Add(1);
+			RiseOfCursorData.Add(0.1);
+			RiseOfPrimaryData.Add(2);
+			RiseOfFarmData.Add(50);
+			RiseOfMineData.Add(2000);
+			RiseOfLaboratoryData.Add(100000);
+			RiseOfSpaceCraftData.Add(50000000);
+			RiseOfReactorData.Add(700000000);
+			RiseOfMLData.Add(101010101010101010);
 
 			//if (localSettings.Values["GameIsStart"]==null)
 			{
@@ -70,7 +72,7 @@ namespace OrangeNoEnd
 			#region SetTimer
 			TimerForCleanEvent.Interval = new TimeSpan(0, 0, 1);
 			TimerForCleanEvent.Tick += TimerForCleanEvent_Tick;
-			Timers.Interval = new TimeSpan(0, 0, 0,0,50);
+			Timers.Interval = new TimeSpan(0, 0, 0, 0, 50);
 			Timers.Tick += Timers_Tick;
 			#endregion
 
@@ -84,7 +86,7 @@ namespace OrangeNoEnd
 
 		void SetStartValue()
 		{
-			NumberOfOrange = 100000m;//= 
+			NumberOfOrange = 0m;
 			NumberOfCursor = NumberOfPrimary = NumberOfFarm = NumberOfMine = NumberOfLaboratory = NumberOfSpaceCraft = NumberOfReactor = NumberOfML = 0;
 			LevelOfRush = LevelOfCursor = LevelOfPrimary = LevelOfFarm = LevelOfMine = LevelOfLaboratory = LevelOfSpaceCraft = LevelOfReactor = LevelOfML = 0;
 		}
@@ -100,8 +102,8 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				NumberOfOrangeOut.Text = decimal.Floor(value).ToString();
 				localSettings.Values["NumberOfOrange"] = value.ToString();
+				NumberOfOrangeOut.Text = decimal.Floor(value).ToString();
 				SpeedOfOrangeRiseOut.Text = SpeedOfOrangeRise.ToString();
 			}
 		}
@@ -113,8 +115,9 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				NumberOfCursorOut.Text = value.ToString();
 				localSettings.Values["NumberOfCursor"] = value;
+				NumberOfCursorOut.Text = value.ToString();
+				PriceOfCursorOut.Text = PriceOfCursor.ToString();
 			}
 		}
 		int NumberOfPrimary
@@ -125,8 +128,9 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				NumberOfPrimaryOut.Text = value.ToString();
 				localSettings.Values["NumberOfPrimary"] = value;
+				NumberOfPrimaryOut.Text = value.ToString();
+				PriceOfPrimaryOut.Text = PriceOfPrimary.ToString();
 			}
 		}
 		int NumberOfFarm
@@ -137,8 +141,9 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				NumberOfFarmOut.Text = value.ToString();
 				localSettings.Values["NumberOfFarm"] = value;
+				NumberOfFarmOut.Text = value.ToString();
+				PriceOfFarmOut.Text = PriceOfFarm.ToString();
 			}
 		}
 		int NumberOfMine
@@ -149,8 +154,9 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				NumberOfMineOut.Text = value.ToString();
 				localSettings.Values["NumberOfMine"] = value;
+				NumberOfMineOut.Text = value.ToString();
+				PriceOfMineOut.Text = PriceOfMine.ToString();
 			}
 		}
 		int NumberOfLaboratory
@@ -161,8 +167,9 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				NumberOfLaboratoryOut.Text = value.ToString();
 				localSettings.Values["NumberOfLaboratory"] = value;
+				NumberOfLaboratoryOut.Text = value.ToString();
+				PriceOfLaboratoryOut.Text = PriceOfLaboratory.ToString();
 			}
 		}
 		int NumberOfSpaceCraft
@@ -173,8 +180,9 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				NumberOfSpaceCraftOut.Text = value.ToString();
 				localSettings.Values["NumberOfSpaceCraft"] = value;
+				NumberOfSpaceCraftOut.Text = value.ToString();
+				PriceOfSpaceCraftOut.Text = PriceOfSpaceCraft.ToString();
 			}
 		}
 		int NumberOfReactor
@@ -185,8 +193,9 @@ namespace OrangeNoEnd
 			}
 			set
 			{
-				NumberOfReactorOut.Text = value.ToString();
 				localSettings.Values["NumberOfReactor"] = value;
+				NumberOfMLOut.Text = value.ToString();
+				PriceOfMLOut.Text = PriceOfML.ToString();
 			}
 		}
 		int NumberOfML
@@ -318,65 +327,133 @@ namespace OrangeNoEnd
 		{
 			get
 			{
-				return SettingOfRush[LevelOfRush];
+				return RiseOfRushData[LevelOfRush];
 			}
 		}
 		double RiseOfCursor
 		{
 			get
 			{
-				return SettingOfCursor[LevelOfCursor];
+				return RiseOfCursorData[LevelOfCursor];
 			}
 		}
 		long RiseOfPrimary
 		{
 			get
 			{
-				return SettingOfPrimary[LevelOfPrimary];
+				return RiseOfPrimaryData[LevelOfPrimary];
 			}
 		}
 		long RiseOfFarm
 		{
 			get
 			{
-				return SettingOfFarm[LevelOfFarm];
+				return RiseOfFarmData[LevelOfFarm];
 			}
 		}
 		long RiseOfMine
 		{
 			get
 			{
-				return SettingOfMine[LevelOfMine];
+				return RiseOfMineData[LevelOfMine];
 			}
 		}
 		long RiseOfLaboratory
 		{
 			get
 			{
-				return SettingOfLaboratory[LevelOfLaboratory];
+				return RiseOfLaboratoryData[LevelOfLaboratory];
 			}
 		}
 		long RiseOfSpaceCraft
 		{
 			get
 			{
-				return SettingOfSpaceCraft[LevelOfSpaceCraft];
+				return RiseOfSpaceCraftData[LevelOfSpaceCraft];
 			}
 		}
 		long RiseOfReactor
 		{
 			get
 			{
-				return SettingOfReactor[LevelOfReactor];
+				return RiseOfReactorData[LevelOfReactor];
 			}
 		}
 		long RiseOfML
 		{
 			get
 			{
-				return SettingOfML[LevelOfML];
+				return RiseOfMLData[LevelOfML];
 			}
 		}
+		#endregion
+
+		#region PriceOf
+
+		decimal PriceOfCursor
+		{
+			get
+			{
+				return (decimal)(10 +  (Math.Pow(NumberOfCursor, 2)));
+			}
+		}
+
+		decimal PriceOfPrimary
+		{
+			get
+			{
+				return (decimal)(10 +  (Math.Pow(NumberOfPrimary, 3)));
+			}
+		}
+
+		decimal PriceOfFarm
+		{
+			get
+			{
+				return (decimal)(10 +  (Math.Pow(NumberOfFarm, 4)));
+			}
+		}
+
+		decimal PriceOfMine
+		{
+			get
+			{
+				return (decimal)(10 + 1 * (Math.Pow(NumberOfMine, 5)));
+			}
+		}
+
+		decimal PriceOfLaboratory
+		{
+			get
+			{
+				return (decimal)(10 + 1 * (Math.Pow(NumberOfLaboratory, 6)));
+			}
+		}
+
+		decimal PriceOfSpaceCraft
+		{
+			get
+			{
+				return (decimal)(10 + (Math.Pow(NumberOfSpaceCraft, 7)));
+			}
+		}
+
+		decimal PriceOfReactor
+		{
+			get
+			{
+				return (decimal)(10 + (Math.Pow(NumberOfReactor, 8)));
+			}
+		}
+
+		decimal PriceOfML
+		{
+			get
+			{
+				return (decimal)(10 + (Math.Pow(NumberOfML, 100)));
+			}
+		}
+
 		#endregion
 
 		double SpeedOfOrangeRise
@@ -391,7 +468,7 @@ namespace OrangeNoEnd
 
 		void Timers_Tick(object sender, object e)
 		{
-			NumberOfOrange += (decimal)(SpeedOfOrangeRise*(Timers.Interval.TotalMilliseconds/1000));
+			NumberOfOrange += (decimal)(SpeedOfOrangeRise * (Timers.Interval.TotalMilliseconds / 1000));
 		}
 		public void ShowEvent(string text)
 		{
@@ -415,7 +492,7 @@ namespace OrangeNoEnd
 			TBInfo.Text = "摇晃橘子树~~橘子可能会从树上掉下来，每次摇树会掉下" + RiseOfRush + "个橘子";
 		}
 
-		private void _PointerExited(object sender, PointerRoutedEventArgs e)
+		private void _PointerExited(object sender, object e)
 		{
 			TBInfo.Text = "";
 		}
@@ -425,5 +502,17 @@ namespace OrangeNoEnd
 			NumberOfOrange += RiseOfRush;
 			ShowEvent(RiseOfRush.ToString() + "个橘子从树上掉了下来~~~");
 		}
+
+		private void Buy1Cursor_Click(object sender, object e)
+		{
+			if (NumberOfOrange >= PriceOfCursor)
+			{
+				NumberOfOrange -= PriceOfCursor;
+				NumberOfCursor++;
+			}
+
+		}
+
+
 	}
 }
