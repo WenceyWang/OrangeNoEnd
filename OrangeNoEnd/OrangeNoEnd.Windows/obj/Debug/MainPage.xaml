@@ -35,260 +35,275 @@
 			<TextBlock Margin="0,10,0,0" TextWrapping="Wrap" Text="{StaticResource NumberOfOrange}" VerticalAlignment="Top" FontSize="18" TextAlignment="Center"/>
 			<Button x:ConnectionId='2' x:Name="BRush" Content="{StaticResource Rush}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Bottom" FontSize="{StaticResource SizeOfTitle}"                                                                                          Grid.Row="1" Height="89"/>
 			<TextBlock x:Name="SpeedOfOrangeRiseOut" Margin="0,99,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" TextAlignment="Center" FontSize="20"/>
-			<ListView x:Name="List" Grid.Column="2" Grid.RowSpan="2" SelectionMode="None" Margin="0,0,10,0">
-				<Grid x:Name="Cursor" Margin="0" Width="835">
-					<Grid.RowDefinitions>
-						<RowDefinition Height="Auto"/>
-						<RowDefinition Height="Auto"/>
-					</Grid.RowDefinitions>
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="Auto"/>
-						<ColumnDefinition/>
-						<ColumnDefinition Width="Auto"/>
-					</Grid.ColumnDefinitions>
-					<Image Width="100" VerticalAlignment="Center" HorizontalAlignment="Center" Height="100"/>
-					<StackPanel Grid.Column="1">
-						<TextBlock x:Name="TitleOfCursorOut" TextWrapping="Wrap" Text="{StaticResource TitleOfCursor}" FontSize="36"/>
-						<TextBlock x:Name="LebelOfCursorOut" TextWrapping="Wrap" Text="{StaticResource LabelOfCursor}" FontSize="14"/>
-						<TextBlock x:Name="PriceOfCursorOut" TextWrapping="Wrap" Text="TextBlock" FontSize="20"/>
-						<TextBlock x:Name="LevelOfCursorOut" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.5,0.5"/>
-					</StackPanel>
-					<TextBlock x:Name="NumberOfCursorOut" Margin="0" TextWrapping="Wrap" Text="0" FontSize="72" TextAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2"/>
-					<Grid Margin="0" Grid.Row="1" Grid.ColumnSpan="3">
+			<ScrollViewer  Height="Auto"  Width="Auto" Margin="0" Grid.Column="2" ZoomMode="Disabled" HorizontalScrollMode="Disabled" Grid.RowSpan="2" IsVerticalRailEnabled="False">
+				<StackPanel VerticalAlignment="Top">
+					<Grid x:Name="Cursor" Margin="0">
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+						</Grid.RowDefinitions>
 						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="Auto"/>
 							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
+							<ColumnDefinition Width="Auto"/>
 						</Grid.ColumnDefinitions>
-						<Button x:Name="Buy1Cursor" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
-						<Button x:Name="Buy10Cursor" Content="{StaticResource LebelOfBuy10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="1"/>
-						<Button x:Name="Sell1Cursor" Content="{StaticResource LebelOfSell1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="2"/>
-						<Button x:Name="Sell10Cursor" Content="{StaticResource LebelOfSell10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="3"/>
-						<Button x:Name="SellAllCursor" Content="{StaticResource LebelOfSellAll}" Grid.Column="4" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+						<Image Width="100" VerticalAlignment="Center" HorizontalAlignment="Center" Height="100"/>
+						<StackPanel Grid.Column="1">
+							<TextBlock x:Name="TitleOfCursorOut" TextWrapping="Wrap" Text="{StaticResource TitleOfCursor}" FontSize="36"/>
+							<TextBlock x:Name="LebelOfCursorOut" TextWrapping="Wrap" Text="{StaticResource LabelOfCursor}" FontSize="14"/>
+							<TextBlock x:Name="PriceOfCursorOut" TextWrapping="Wrap" Text="TextBlock" FontSize="20"/>
+							<TextBlock x:Name="LevelOfCursorOut" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.5,0.5"/>
+						</StackPanel>
+						<TextBlock x:Name="NumberOfCursorOut" Margin="0" TextWrapping="Wrap" Text="0" FontSize="72" TextAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2"/>
+						<Grid Margin="0" Grid.Row="1" Grid.ColumnSpan="3">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+							</Grid.ColumnDefinitions>
+							<Button x:Name="Buy1Cursor" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+							<Button x:Name="Buy10Cursor" Content="{StaticResource LebelOfBuy10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="1"/>
+							<Button x:Name="Sell1Cursor" Content="{StaticResource LebelOfSell1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="2"/>
+							<Button x:Name="Sell10Cursor" Content="{StaticResource LebelOfSell10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="3"/>
+							<Button x:Name="SellAllCursor" Content="{StaticResource LebelOfSellAll}" Grid.Column="4" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+						</Grid>
 					</Grid>
-				</Grid>
-				<Grid x:Name="Primary" Margin="0">
-					<Grid.RowDefinitions>
-						<RowDefinition Height="Auto"/>
-						<RowDefinition Height="Auto"/>
-					</Grid.RowDefinitions>
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="Auto"/>
-						<ColumnDefinition/>
-						<ColumnDefinition Width="Auto"/>
-					</Grid.ColumnDefinitions>
-					<Image Width="100"/>
-					<TextBlock x:Name="TitleOfPrimaryOut" Margin="0" TextWrapping="Wrap" Text="{StaticResource TitleOfPrimary}" VerticalAlignment="Top" FontSize="36" Grid.Column="1" Grid.ColumnSpan="2" Height="43"/>
-					<TextBlock x:Name="LebelOfPrimaryOut" Margin="0,43,0,0" TextWrapping="Wrap" Text="{StaticResource LabelOfPrimary}" VerticalAlignment="Top" FontSize="14" Grid.Column="1" Height="34"/>
-					<TextBlock x:Name="NumberOfPrimaryOut" Margin="0,8,0,7" TextWrapping="Wrap" Text="0" FontSize="72" TextAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2" Height="86" Width="39"/>
-					<TextBlock x:Name="PriceOfPrimaryOut" Grid.Column="1" Margin="0,77,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Height="24"/>
-					<TextBlock x:Name="LevelOfPrimaryOut" Grid.Column="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Height="25" Margin="0,101,0,0" RenderTransformOrigin="0.5,0.5"/>
-					<Grid Margin="0" Grid.Row="1" Grid.ColumnSpan="3">
+					<Grid x:Name="Primary" Margin="0">
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+						</Grid.RowDefinitions>
 						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="Auto"/>
 							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
+							<ColumnDefinition Width="Auto"/>
 						</Grid.ColumnDefinitions>
-						<Button x:Name="Buy1Primary" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
-						<Button x:Name="Buy10Primary" Content="{StaticResource LebelOfBuy10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="1"/>
-						<Button x:Name="Sell1Primary" Content="{StaticResource LebelOfSell1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="2"/>
-						<Button x:Name="Sell10Primary" Content="{StaticResource LebelOfSell10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="3"/>
-						<Button x:Name="SellAllPrimary" Content="{StaticResource LebelOfSellAll}" Grid.Column="4" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+						<Image Width="100" VerticalAlignment="Center" HorizontalAlignment="Center" Height="100"/>
+						<StackPanel Grid.Column="1">
+							<TextBlock x:Name="TitleOfPrimaryOut" TextWrapping="Wrap" Text="{StaticResource TitleOfPrimary}" FontSize="36"/>
+							<TextBlock x:Name="LebelOfPrimaryOut" TextWrapping="Wrap" Text="{StaticResource LabelOfPrimary}" FontSize="14"/>
+							<TextBlock x:Name="PriceOfPrimaryOut" TextWrapping="Wrap" Text="TextBlock" FontSize="20"/>
+							<TextBlock x:Name="LevelOfPrimaryOut" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.5,0.5"/>
+						</StackPanel>
+						<TextBlock x:Name="NumberOfPrimaryOut" Margin="0" TextWrapping="Wrap" Text="0" FontSize="72" TextAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2"/>
+						<Grid Margin="0" Grid.Row="1" Grid.ColumnSpan="3">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+							</Grid.ColumnDefinitions>
+							<Button x:Name="Buy1Primary" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+							<Button x:Name="Buy10Primary" Content="{StaticResource LebelOfBuy10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="1"/>
+							<Button x:Name="Sell1Primary" Content="{StaticResource LebelOfSell1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="2"/>
+							<Button x:Name="Sell10Primary" Content="{StaticResource LebelOfSell10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="3"/>
+							<Button x:Name="SellAllPrimary" Content="{StaticResource LebelOfSellAll}" Grid.Column="4" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+						</Grid>
 					</Grid>
-				</Grid>
-				<Grid x:Name="Farm" Margin="0">
-					<Grid.RowDefinitions>
-						<RowDefinition Height="Auto"/>
-						<RowDefinition Height="Auto"/>
-					</Grid.RowDefinitions>
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="Auto"/>
-						<ColumnDefinition/>
-						<ColumnDefinition Width="Auto"/>
-					</Grid.ColumnDefinitions>
-					<Image Width="100"/>
-					<TextBlock x:Name="TitleOfFarmOut" Margin="0" TextWrapping="Wrap" Text="{StaticResource TitleOfFarm}" VerticalAlignment="Top" FontSize="36" Grid.Column="1" Grid.ColumnSpan="2" Height="43"/>
-					<TextBlock x:Name="LebelOfFarmOut" Margin="0,43,0,0" TextWrapping="Wrap" Text="{StaticResource LabelOfFarm}" VerticalAlignment="Top" FontSize="14" Grid.Column="1" Height="34"/>
-					<TextBlock x:Name="NumberOfFarmOut" Margin="0,8,0,7" TextWrapping="Wrap" Text="0" FontSize="72" TextAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2" Height="86" Width="39"/>
-					<TextBlock x:Name="PriceOfFarmOut" Grid.Column="1" Margin="0,77,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Height="24"/>
-					<TextBlock x:Name="LevelOfFarmOut" Grid.Column="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Height="25" Margin="0,101,0,0" RenderTransformOrigin="0.5,0.5"/>
-					<Grid Margin="0" Grid.Row="1" Grid.ColumnSpan="3">
+					<Grid x:Name="Farm" Margin="0">
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+						</Grid.RowDefinitions>
 						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="Auto"/>
 							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
+							<ColumnDefinition Width="Auto"/>
 						</Grid.ColumnDefinitions>
-						<Button x:Name="Buy1Farm" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
-						<Button x:Name="Buy10Farm" Content="{StaticResource LebelOfBuy10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="1"/>
-						<Button x:Name="Sell1Farm" Content="{StaticResource LebelOfSell1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="2"/>
-						<Button x:Name="Sell10Farm" Content="{StaticResource LebelOfSell10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="3"/>
-						<Button x:Name="SellAllFarm" Content="{StaticResource LebelOfSellAll}" Grid.Column="4" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+						<Image Width="100" VerticalAlignment="Center" HorizontalAlignment="Center" Height="100"/>
+						<StackPanel Grid.Column="1">
+							<TextBlock x:Name="TitleOfFarmOut" TextWrapping="Wrap" Text="{StaticResource TitleOfFarm}" FontSize="36"/>
+							<TextBlock x:Name="LebelOfFarmOut" TextWrapping="Wrap" Text="{StaticResource LabelOfFarm}" FontSize="14"/>
+							<TextBlock x:Name="PriceOfFarmOut" TextWrapping="Wrap" Text="TextBlock" FontSize="20"/>
+							<TextBlock x:Name="LevelOfFarmOut" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.5,0.5"/>
+						</StackPanel>
+						<TextBlock x:Name="NumberOfFarmOut" Margin="0" TextWrapping="Wrap" Text="0" FontSize="72" TextAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2"/>
+						<Grid Margin="0" Grid.Row="1" Grid.ColumnSpan="3">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+							</Grid.ColumnDefinitions>
+							<Button x:Name="Buy1Farm" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+							<Button x:Name="Buy10Farm" Content="{StaticResource LebelOfBuy10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="1"/>
+							<Button x:Name="Sell1Farm" Content="{StaticResource LebelOfSell1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="2"/>
+							<Button x:Name="Sell10Farm" Content="{StaticResource LebelOfSell10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="3"/>
+							<Button x:Name="SellAllFarm" Content="{StaticResource LebelOfSellAll}" Grid.Column="4" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+						</Grid>
 					</Grid>
-				</Grid>
-				<Grid x:Name="Mine" Margin="0">
-					<Grid.RowDefinitions>
-						<RowDefinition Height="Auto"/>
-						<RowDefinition Height="Auto"/>
-					</Grid.RowDefinitions>
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="Auto"/>
-						<ColumnDefinition/>
-						<ColumnDefinition Width="Auto"/>
-					</Grid.ColumnDefinitions>
-					<Image Width="100"/>
-					<TextBlock x:Name="TitleOfMineOut" Margin="0" TextWrapping="Wrap" Text="{StaticResource TitleOfMine}" VerticalAlignment="Top" FontSize="36" Grid.Column="1" Grid.ColumnSpan="2" Height="43"/>
-					<TextBlock x:Name="LebelOfMineOut" Margin="0,43,0,0" TextWrapping="Wrap" Text="{StaticResource LabelOfMine}" VerticalAlignment="Top" FontSize="14" Grid.Column="1" Height="34"/>
-					<TextBlock x:Name="NumberOfMineOut" Margin="0,8,0,7" TextWrapping="Wrap" Text="0" FontSize="72" TextAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2" Height="86" Width="39"/>
-					<TextBlock x:Name="PriceOfMineOut" Grid.Column="1" Margin="0,77,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Height="24"/>
-					<TextBlock x:Name="LevelOfMineOut" Grid.Column="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Height="25" Margin="0,101,0,0" RenderTransformOrigin="0.5,0.5"/>
-					<Grid Margin="0" Grid.Row="1" Grid.ColumnSpan="3">
+					<Grid x:Name="Mine" Margin="0">
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+						</Grid.RowDefinitions>
 						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="Auto"/>
 							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
+							<ColumnDefinition Width="Auto"/>
 						</Grid.ColumnDefinitions>
-						<Button x:Name="Buy1Mine" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
-						<Button x:Name="Buy10Mine" Content="{StaticResource LebelOfBuy10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="1"/>
-						<Button x:Name="Sell1Mine" Content="{StaticResource LebelOfSell1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="2"/>
-						<Button x:Name="Sell10Mine" Content="{StaticResource LebelOfSell10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="3"/>
-						<Button x:Name="SellAllMine" Content="{StaticResource LebelOfSellAll}" Grid.Column="4" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+						<Image Width="100" VerticalAlignment="Center" HorizontalAlignment="Center" Height="100"/>
+						<StackPanel Grid.Column="1">
+							<TextBlock x:Name="TitleOfMineOut" TextWrapping="Wrap" Text="{StaticResource TitleOfMine}" FontSize="36"/>
+							<TextBlock x:Name="LebelOfMineOut" TextWrapping="Wrap" Text="{StaticResource LabelOfMine}" FontSize="14"/>
+							<TextBlock x:Name="PriceOfMineOut" TextWrapping="Wrap" Text="TextBlock" FontSize="20"/>
+							<TextBlock x:Name="LevelOfMineOut" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.5,0.5"/>
+						</StackPanel>
+						<TextBlock x:Name="NumberOfMineOut" Margin="0" TextWrapping="Wrap" Text="0" FontSize="72" TextAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2"/>
+						<Grid Margin="0" Grid.Row="1" Grid.ColumnSpan="3">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+							</Grid.ColumnDefinitions>
+							<Button x:Name="Buy1Mine" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+							<Button x:Name="Buy10Mine" Content="{StaticResource LebelOfBuy10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="1"/>
+							<Button x:Name="Sell1Mine" Content="{StaticResource LebelOfSell1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="2"/>
+							<Button x:Name="Sell10Mine" Content="{StaticResource LebelOfSell10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="3"/>
+							<Button x:Name="SellAllMine" Content="{StaticResource LebelOfSellAll}" Grid.Column="4" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+						</Grid>
 					</Grid>
-				</Grid>
-				<Grid x:Name="Laboratory" Margin="0">
-					<Grid.RowDefinitions>
-						<RowDefinition Height="Auto"/>
-						<RowDefinition Height="Auto"/>
-					</Grid.RowDefinitions>
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="Auto"/>
-						<ColumnDefinition/>
-						<ColumnDefinition Width="Auto"/>
-					</Grid.ColumnDefinitions>
-					<Image Width="100"/>
-					<TextBlock x:Name="TitleOfLaboratoryOut" Margin="0" TextWrapping="Wrap" Text="{StaticResource TitleOfLaboratory}" VerticalAlignment="Top" FontSize="36" Grid.Column="1" Grid.ColumnSpan="2" Height="43"/>
-					<TextBlock x:Name="LebelOfLaboratoryOut" Margin="0,43,0,0" TextWrapping="Wrap" Text="{StaticResource LabelOfLaboratory}" VerticalAlignment="Top" FontSize="14" Grid.Column="1" Height="34"/>
-					<TextBlock x:Name="NumberOfLaboratoryOut" Margin="0,8,0,7" TextWrapping="Wrap" Text="0" FontSize="72" TextAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2" Height="86" Width="39"/>
-					<TextBlock x:Name="PriceOfLaboratoryOut" Grid.Column="1" Margin="0,77,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Height="24"/>
-					<TextBlock x:Name="LevelOfLaboratoryOut" Grid.Column="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Height="25" Margin="0,101,0,0" RenderTransformOrigin="0.5,0.5"/>
-					<Grid Margin="0" Grid.Row="1" Grid.ColumnSpan="3">
-						<Grid.ColumnDefinitions>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-						</Grid.ColumnDefinitions>
-						<Button x:Name="Buy1Laboratory" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
-						<Button x:Name="Buy10Laboratory" Content="{StaticResource LebelOfBuy10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="1"/>
-						<Button x:Name="Sell1Laboratory" Content="{StaticResource LebelOfSell1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="2"/>
-						<Button x:Name="Sell10Laboratory" Content="{StaticResource LebelOfSell10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="3"/>
-						<Button x:Name="SellAllLaboratory" Content="{StaticResource LebelOfSellAll}" Grid.Column="4" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
-					</Grid>
-				</Grid>
-				<Grid x:Name="SpaceCraft" Margin="0">
-					<Grid.RowDefinitions>
-						<RowDefinition Height="Auto"/>
-						<RowDefinition Height="Auto"/>
-					</Grid.RowDefinitions>
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="Auto"/>
-						<ColumnDefinition/>
-						<ColumnDefinition Width="Auto"/>
-					</Grid.ColumnDefinitions>
-					<Image Width="100"/>
-					<TextBlock x:Name="TitleOfSpaceCraftOut" Margin="0" TextWrapping="Wrap" Text="{StaticResource TitleOfSpaceCraft}" VerticalAlignment="Top" FontSize="36" Grid.Column="1" Grid.ColumnSpan="2" Height="43"/>
-					<TextBlock x:Name="LebelOfSpaceCraftOut" Margin="0,43,0,0" TextWrapping="Wrap" Text="{StaticResource LabelOfSpaceCraft}" VerticalAlignment="Top" FontSize="14" Grid.Column="1" Height="34"/>
-					<TextBlock x:Name="NumberOfSpaceCraftOut" Margin="0,8,0,7" TextWrapping="Wrap" Text="0" FontSize="72" TextAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2" Height="86" Width="39"/>
-					<TextBlock x:Name="PriceOfSpaceCraftOut" Grid.Column="1" Margin="0,77,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Height="24"/>
-					<TextBlock x:Name="LevelOfSpaceCraftOut" Grid.Column="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Height="25" Margin="0,101,0,0" RenderTransformOrigin="0.5,0.5"/>
-					<Grid Margin="0" Grid.Row="1" Grid.ColumnSpan="3">
-						<Grid.ColumnDefinitions>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-						</Grid.ColumnDefinitions>
-						<Button x:Name="Buy1SpaceCraft" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
-						<Button x:Name="Buy10SpaceCraft" Content="{StaticResource LebelOfBuy10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="1"/>
-						<Button x:Name="Sell1SpaceCraft" Content="{StaticResource LebelOfSell1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="2"/>
-						<Button x:Name="Sell10SpaceCraft" Content="{StaticResource LebelOfSell10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="3"/>
-						<Button x:Name="SellAllSpaceCraft" Content="{StaticResource LebelOfSellAll}" Grid.Column="4" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
-					</Grid>
-				</Grid>
 
-				<Grid x:Name="Reactor" Margin="0">
-					<Grid.RowDefinitions>
-						<RowDefinition Height="Auto"/>
-						<RowDefinition Height="Auto"/>
-					</Grid.RowDefinitions>
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="Auto"/>
-						<ColumnDefinition/>
-						<ColumnDefinition Width="Auto"/>
-					</Grid.ColumnDefinitions>
-					<Image Width="100"/>
-					<TextBlock x:Name="TitleOfReactorOut" Margin="0" TextWrapping="Wrap" Text="{StaticResource TitleOfReactor}" VerticalAlignment="Top" FontSize="36" Grid.Column="1" Grid.ColumnSpan="2" Height="43"/>
-					<TextBlock x:Name="LebelOfReactorOut" Margin="0,43,0,0" TextWrapping="Wrap" Text="{StaticResource LabelOfReactor}" VerticalAlignment="Top" FontSize="14" Grid.Column="1" Height="34"/>
-					<TextBlock x:Name="NumberOfReactorOut" Margin="0,8,0,7" TextWrapping="Wrap" Text="0" FontSize="72" TextAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2" Height="86" Width="39"/>
-					<TextBlock x:Name="PriceOfReactorOut" Grid.Column="1" Margin="0,77,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Height="24"/>
-					<TextBlock x:Name="LevelOfReactorOut" Grid.Column="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Height="25" Margin="0,101,0,0" RenderTransformOrigin="0.5,0.5"/>
-					<Grid Margin="0" Grid.Row="1" Grid.ColumnSpan="3">
+					<Grid x:Name="Laboratory" Margin="0">
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+						</Grid.RowDefinitions>
 						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="Auto"/>
 							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
+							<ColumnDefinition Width="Auto"/>
 						</Grid.ColumnDefinitions>
-						<Button x:Name="Buy1Reactor" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
-						<Button x:Name="Buy10Reactor" Content="{StaticResource LebelOfBuy10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="1"/>
-						<Button x:Name="Sell1Reactor" Content="{StaticResource LebelOfSell1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="2"/>
-						<Button x:Name="Sell10Reactor" Content="{StaticResource LebelOfSell10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="3"/>
-						<Button x:Name="SellAllReactor" Content="{StaticResource LebelOfSellAll}" Grid.Column="4" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+						<Image Width="100" VerticalAlignment="Center" HorizontalAlignment="Center" Height="100"/>
+						<StackPanel Grid.Column="1">
+							<TextBlock x:Name="TitleOfLaboratoryOut" TextWrapping="Wrap" Text="{StaticResource TitleOfLaboratory}" FontSize="36"/>
+							<TextBlock x:Name="LebelOfLaboratoryOut" TextWrapping="Wrap" Text="{StaticResource LabelOfLaboratory}" FontSize="14"/>
+							<TextBlock x:Name="PriceOfLaboratoryOut" TextWrapping="Wrap" Text="TextBlock" FontSize="20"/>
+							<TextBlock x:Name="LevelOfLaboratoryOut" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.5,0.5"/>
+						</StackPanel>
+						<TextBlock x:Name="NumberOfLaboratoryOut" Margin="0" TextWrapping="Wrap" Text="0" FontSize="72" TextAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2"/>
+						<Grid Margin="0" Grid.Row="1" Grid.ColumnSpan="3">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+							</Grid.ColumnDefinitions>
+							<Button x:Name="Buy1Laboratory" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+							<Button x:Name="Buy10Laboratory" Content="{StaticResource LebelOfBuy10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="1"/>
+							<Button x:Name="Sell1Laboratory" Content="{StaticResource LebelOfSell1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="2"/>
+							<Button x:Name="Sell10Laboratory" Content="{StaticResource LebelOfSell10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="3"/>
+							<Button x:Name="SellAllLaboratory" Content="{StaticResource LebelOfSellAll}" Grid.Column="4" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+						</Grid>
 					</Grid>
-				</Grid>
-
-				<Grid x:Name="ML" Margin="0">
-					<Grid.RowDefinitions>
-						<RowDefinition Height="Auto"/>
-						<RowDefinition Height="Auto"/>
-					</Grid.RowDefinitions>
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="Auto"/>
-						<ColumnDefinition/>
-						<ColumnDefinition Width="Auto"/>
-					</Grid.ColumnDefinitions>
-					<Image Width="100"/>
-					<TextBlock x:Name="TitleOfMLOut" Margin="0" TextWrapping="Wrap" Text="{StaticResource TitleOfML}" VerticalAlignment="Top" FontSize="36" Grid.Column="1" Grid.ColumnSpan="2" Height="43"/>
-					<TextBlock x:Name="LebelOfMLOut" Margin="0,43,0,0" TextWrapping="Wrap" Text="{StaticResource LabelOfML}" VerticalAlignment="Top" FontSize="14" Grid.Column="1" Height="34"/>
-					<TextBlock x:Name="NumberOfMLOut" Margin="0,8,0,7" TextWrapping="Wrap" Text="0" FontSize="72" TextAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2" Height="86" Width="39"/>
-					<TextBlock x:Name="PriceOfMLOut" Grid.Column="1" Margin="0,77,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Height="24"/>
-					<TextBlock x:Name="LevelOfMLOut" Grid.Column="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" Height="25" Margin="0,101,0,0" RenderTransformOrigin="0.5,0.5"/>
-					<Grid Margin="0" Grid.Row="1" Grid.ColumnSpan="3">
+					<Grid x:Name="SpaceCraft" Margin="0">
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+						</Grid.RowDefinitions>
 						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="Auto"/>
 							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
-							<ColumnDefinition/>
+							<ColumnDefinition Width="Auto"/>
 						</Grid.ColumnDefinitions>
-						<Button x:Name="Buy1ML" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
-						<Button x:Name="Buy10ML" Content="{StaticResource LebelOfBuy10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="1"/>
-						<Button x:Name="Sell1ML" Content="{StaticResource LebelOfSell1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="2"/>
-						<Button x:Name="Sell10ML" Content="{StaticResource LebelOfSell10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="3"/>
-						<Button x:Name="SellAllML" Content="{StaticResource LebelOfSellAll}" Grid.Column="4" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+						<Image Width="100" VerticalAlignment="Center" HorizontalAlignment="Center" Height="100"/>
+						<StackPanel Grid.Column="1">
+							<TextBlock x:Name="TitleOfSpaceCraftOut" TextWrapping="Wrap" Text="{StaticResource TitleOfSpaceCraft}" FontSize="36"/>
+							<TextBlock x:Name="LebelOfSpaceCraftOut" TextWrapping="Wrap" Text="{StaticResource LabelOfSpaceCraft}" FontSize="14"/>
+							<TextBlock x:Name="PriceOfSpaceCraftOut" TextWrapping="Wrap" Text="TextBlock" FontSize="20"/>
+							<TextBlock x:Name="LevelOfSpaceCraftOut" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.5,0.5"/>
+						</StackPanel>
+						<TextBlock x:Name="NumberOfSpaceCraftOut" Margin="0" TextWrapping="Wrap" Text="0" FontSize="72" TextAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2"/>
+						<Grid Margin="0" Grid.Row="1" Grid.ColumnSpan="3">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+							</Grid.ColumnDefinitions>
+							<Button x:Name="Buy1SpaceCraft" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+							<Button x:Name="Buy10SpaceCraft" Content="{StaticResource LebelOfBuy10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="1"/>
+							<Button x:Name="Sell1SpaceCraft" Content="{StaticResource LebelOfSell1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="2"/>
+							<Button x:Name="Sell10SpaceCraft" Content="{StaticResource LebelOfSell10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="3"/>
+							<Button x:Name="SellAllSpaceCraft" Content="{StaticResource LebelOfSellAll}" Grid.Column="4" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+						</Grid>
 					</Grid>
-				</Grid>
-			</ListView>
+					<Grid x:Name="Reactor" Margin="0">
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+						</Grid.RowDefinitions>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="Auto"/>
+							<ColumnDefinition/>
+							<ColumnDefinition Width="Auto"/>
+						</Grid.ColumnDefinitions>
+						<Image Width="100" VerticalAlignment="Center" HorizontalAlignment="Center" Height="100"/>
+						<StackPanel Grid.Column="1">
+							<TextBlock x:Name="TitleOfReactorOut" TextWrapping="Wrap" Text="{StaticResource TitleOfReactor}" FontSize="36"/>
+							<TextBlock x:Name="LebelOfReactorOut" TextWrapping="Wrap" Text="{StaticResource LabelOfReactor}" FontSize="14"/>
+							<TextBlock x:Name="PriceOfReactorOut" TextWrapping="Wrap" Text="TextBlock" FontSize="20"/>
+							<TextBlock x:Name="LevelOfReactorOut" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.5,0.5"/>
+						</StackPanel>
+						<TextBlock x:Name="NumberOfReactorOut" Margin="0" TextWrapping="Wrap" Text="0" FontSize="72" TextAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2"/>
+						<Grid Margin="0" Grid.Row="1" Grid.ColumnSpan="3">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+							</Grid.ColumnDefinitions>
+							<Button x:Name="Buy1Reactor" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+							<Button x:Name="Buy10Reactor" Content="{StaticResource LebelOfBuy10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="1"/>
+							<Button x:Name="Sell1Reactor" Content="{StaticResource LebelOfSell1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="2"/>
+							<Button x:Name="Sell10Reactor" Content="{StaticResource LebelOfSell10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="3"/>
+							<Button x:Name="SellAllReactor" Content="{StaticResource LebelOfSellAll}" Grid.Column="4" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+						</Grid>
+					</Grid>
+					<Grid x:Name="ML" Margin="0">
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+						</Grid.RowDefinitions>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="Auto"/>
+							<ColumnDefinition/>
+							<ColumnDefinition Width="Auto"/>
+						</Grid.ColumnDefinitions>
+						<Image Width="100" VerticalAlignment="Center" HorizontalAlignment="Center" Height="100"/>
+						<StackPanel Grid.Column="1">
+							<TextBlock x:Name="TitleOfMLOut" TextWrapping="Wrap" Text="{StaticResource TitleOfML}" FontSize="36"/>
+							<TextBlock x:Name="LebelOfMLOut" TextWrapping="Wrap" Text="{StaticResource LabelOfML}" FontSize="14"/>
+							<TextBlock x:Name="PriceOfMLOut" TextWrapping="Wrap" Text="TextBlock" FontSize="20"/>
+							<TextBlock x:Name="LevelOfMLOut" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.5,0.5"/>
+						</StackPanel>
+						<TextBlock x:Name="NumberOfMLOut" Margin="0" TextWrapping="Wrap" Text="0" FontSize="72" TextAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2"/>
+						<Grid Margin="0" Grid.Row="1" Grid.ColumnSpan="3">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+								<ColumnDefinition/>
+							</Grid.ColumnDefinitions>
+							<Button x:Name="Buy1ML" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+							<Button x:Name="Buy10ML" Content="{StaticResource LebelOfBuy10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="1"/>
+							<Button x:Name="Sell1ML" Content="{StaticResource LebelOfSell1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="2"/>
+							<Button x:Name="Sell10ML" Content="{StaticResource LebelOfSell10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="3"/>
+							<Button x:Name="SellAllML" Content="{StaticResource LebelOfSellAll}" Grid.Column="4" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+						</Grid>
+					</Grid>
+				</StackPanel>
+			</ScrollViewer>
 		</Grid>
 		<TextBlock x:Name="TBInfo" Margin="10,0,10,10" Grid.Row="2" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Bottom" Height="30" Grid.ColumnSpan="2"/>
 		<TextBlock x:Name="TBEvent" Margin="10,0,10,10" Grid.Row="2" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Bottom" Height="30" Grid.Column="2" TextAlignment="Right"/>

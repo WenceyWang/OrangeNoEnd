@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Class 4\Desktop\OrangeNoEnd-master\OrangeNoEnd-master\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-10T10:10:30.072</Modified>
+      <Modified>2014-06-11T04:07:12.915</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Class 4\Desktop\OrangeNoEnd-master\OrangeNoEnd-master\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\OrangeNoEnd.Windows.exe">
       <PackagePath>OrangeNoEnd.Windows.exe</PackagePath>
-      <Modified>2014-06-10T10:27:57.898</Modified>
+      <Modified>2014-06-11T04:21:15.311</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Class 4\Desktop\OrangeNoEnd-master\OrangeNoEnd-master\OrangeNoEnd\OrangeNoEnd.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -54,15 +54,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Class 4\Desktop\OrangeNoEnd-master\OrangeNoEnd-master\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-06-10T10:27:57.406</Modified>
+      <Modified>2014-06-11T04:18:48.234</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Class 4\Desktop\OrangeNoEnd-master\OrangeNoEnd-master\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\OrangeNoEnd.Windows.xr.xml">
       <PackagePath>OrangeNoEnd.Windows.xr.xml</PackagePath>
-      <Modified>2014-06-10T10:10:24.829</Modified>
+      <Modified>2014-06-11T04:18:48.209</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Class 4\Desktop\OrangeNoEnd-master\OrangeNoEnd-master\OrangeNoEnd\OrangeNoEnd.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-06-10T10:10:27.462</Modified>
+      <Modified>2014-06-11T04:07:12.532</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

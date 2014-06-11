@@ -49,7 +49,6 @@ namespace OrangeNoEnd
 		public MainPage()
 		{
 			this.InitializeComponent();
-
 			#region SetStartValue
 			SettingOfRush.Add(1);
 			SettingOfCursor.Add(0.1);
@@ -86,7 +85,7 @@ namespace OrangeNoEnd
 		void SetStartValue()
 		{
 			NumberOfOrange = 100000m;//= 
-			NumberOfCursor = NumberOfPrimary = NumberOfFarm = NumberOfMine = NumberOfLaboratory = NumberOfSpaceCraft = NumberOfReactor = NumberOfML = 1;
+			NumberOfCursor = NumberOfPrimary = NumberOfFarm = NumberOfMine = NumberOfLaboratory = NumberOfSpaceCraft = NumberOfReactor = NumberOfML = 0;
 			LevelOfRush = LevelOfCursor = LevelOfPrimary = LevelOfFarm = LevelOfMine = LevelOfLaboratory = LevelOfSpaceCraft = LevelOfReactor = LevelOfML = 0;
 		}
 
