@@ -63,7 +63,7 @@
 								<ColumnDefinition/>
 								<ColumnDefinition/>
 							</Grid.ColumnDefinitions>
-							<Button x:ConnectionId='3' x:Name="Buy1Cursor" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"                         />
+							<Button x:ConnectionId='3' x:Name="Buy1Cursor" Content="{StaticResource LebelOfBuy1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"            />
 							<Button x:Name="Buy10Cursor" Content="{StaticResource LebelOfBuy10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="1"/>
 							<Button x:Name="Sell1Cursor" Content="{StaticResource LebelOfSell1}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="2"/>
 							<Button x:Name="Sell10Cursor" Content="{StaticResource LebelOfSell10}" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Grid.Column="3"/>

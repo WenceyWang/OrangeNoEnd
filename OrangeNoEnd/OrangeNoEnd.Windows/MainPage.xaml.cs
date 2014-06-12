@@ -394,7 +394,7 @@ namespace OrangeNoEnd
 		{
 			get
 			{
-				return (decimal)(10 +  (Math.Pow(NumberOfCursor, 2)));
+				return (decimal)(10 + (Math.Pow(NumberOfCursor, 2)));
 			}
 		}
 
@@ -402,7 +402,7 @@ namespace OrangeNoEnd
 		{
 			get
 			{
-				return (decimal)(10 +  (Math.Pow(NumberOfPrimary, 3)));
+				return (decimal)(10 + (Math.Pow(NumberOfPrimary, 3)));
 			}
 		}
 
@@ -410,7 +410,7 @@ namespace OrangeNoEnd
 		{
 			get
 			{
-				return (decimal)(10 +  (Math.Pow(NumberOfFarm, 4)));
+				return (decimal)(10 + (Math.Pow(NumberOfFarm, 4)));
 			}
 		}
 
@@ -503,8 +503,25 @@ namespace OrangeNoEnd
 			ShowEvent(RiseOfRush.ToString() + "个橘子从树上掉了下来~~~");
 		}
 
-		private void Buy1Cursor_Click(object sender, object e)
+		private void BuyAndSell(Button sender, object e)
 		{
+			string Name= sender.Name;
+			if (Name.LastIndexOf("Buy") != -1)
+			{
+				Name.Replace("Buy", "");
+				if (Name.LastIndexOf("")!=-1)
+				{
+					
+				}
+				else
+				{
+					if (true)
+					{
+						
+					}
+				}
+			}
+
 			if (NumberOfOrange >= PriceOfCursor)
 			{
 				NumberOfOrange -= PriceOfCursor;
