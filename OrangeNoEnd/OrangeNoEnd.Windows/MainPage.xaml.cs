@@ -194,8 +194,8 @@ namespace OrangeNoEnd
 			set
 			{
 				localSettings.Values["NumberOfReactor"] = value;
-				NumberOfMLOut.Text = value.ToString();
-				PriceOfMLOut.Text = PriceOfML.ToString();
+				NumberOfReactorOut.Text = value.ToString();
+				PriceOfReactorOut.Text = PriceOfReactor.ToString();
 			}
 		}
 		int NumberOfML
